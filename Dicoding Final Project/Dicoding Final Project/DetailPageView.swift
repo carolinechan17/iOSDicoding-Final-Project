@@ -6,18 +6,20 @@ struct DetailPageView: View {
     var image: UIImage
     var desc: String
     var body: some View {
-        VStack{
-            Image(uiImage: image)
-                .resizable()
-                .frame(width: 250, height: 250, alignment: .center)
-            Text(name)
-                .font(.title3)
-                .fontWeight(.medium)
-                .padding()
-            Text(desc)
-                .padding(.horizontal)
-                .multilineTextAlignment(.leading)
-                .font(.subheadline)
+        ScrollView{
+            VStack{
+                Image(uiImage: image)
+                    .resizable()
+                    .frame(width: 250, height: 250, alignment: .center)
+                Text(name)
+                    .font(.title3)
+                    .fontWeight(.medium)
+                    .padding()
+                Text(desc)
+                    .padding(.horizontal)
+                    .multilineTextAlignment(.leading)
+                    .font(.subheadline)
+            }
         }
     }
 }
