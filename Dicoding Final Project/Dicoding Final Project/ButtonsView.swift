@@ -1,6 +1,6 @@
 import SwiftUI
 
-//View for profile button
+//MARK: View for profile button
 struct ProfileButtonView: View {
     var body: some View {
         Image(systemName: "person")
@@ -14,7 +14,7 @@ struct ProfileButtonView: View {
     }
 }
 
-//View for closing or dismiss button
+//MARK: View for closing or dismiss button
 struct CloseButtonView: View {
     var body: some View {
         Image(systemName: "xmark")

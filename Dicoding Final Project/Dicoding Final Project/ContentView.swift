@@ -1,6 +1,6 @@
 import SwiftUI
 
-//Main View for the application
+//MARK: Main View for the application
 struct ContentView: View {
     @State private var showProfile: Bool = false
     var body: some View {
@@ -12,7 +12,9 @@ struct ContentView: View {
                         .fontWeight(.medium)
                         .frame(alignment: .leading)
                         .padding()
+                    
                     Spacer()
+                    
                     Button(action: {showProfile = true}){
                             ProfileButtonView()
                     }.sheet(isPresented: $showProfile){
@@ -20,14 +22,17 @@ struct ContentView: View {
                     }
                     .padding()
                 }.frame(height: 45)
+                
                 List(dummyAlbumData, id: \.albumName){ data in
                     HStack{
                         Image(uiImage: data.albumImage)
                             .resizable()
                             .frame(width: 100, height: 100, alignment: .leading)
+                        
                         Text(data.albumName)
                             .font(.body)
                             .fontWeight(.regular)
+                        
                         NavigationLink("", destination: DetailPageView(name: data.albumName, image: data.albumImage, desc: data.albumDesc))
                             .frame(alignment: .trailing)
                     }

@@ -1,6 +1,6 @@
 import SwiftUI
 
-//View for album detail page
+//MARK: View for album detail page
 struct DetailPageView: View {
     var name: String
     var image: UIImage
