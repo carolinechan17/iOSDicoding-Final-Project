@@ -15,7 +15,6 @@
 		E683C6E1289124AD000833C4 /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E683C6E0289124AD000833C4 /* ButtonsView.swift */; };
 		E683C6E528912AE4000833C4 /* DetailPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E683C6E428912AE4000833C4 /* DetailPageView.swift */; };
 		E683C6E728914F81000833C4 /* ProfilePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E683C6E628914F81000833C4 /* ProfilePageView.swift */; };
-		E6E46F4A28C9EF8C00A56F53 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E6E46F4928C9EF8C00A56F53 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +27,6 @@
 		E683C6E0289124AD000833C4 /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
 		E683C6E428912AE4000833C4 /* DetailPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPageView.swift; sourceTree = "<group>"; };
 		E683C6E628914F81000833C4 /* ProfilePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePageView.swift; sourceTree = "<group>"; };
-		E6E46F4928C9EF8C00A56F53 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +43,6 @@
 		E66175302890267C00E2649D = {
 			isa = PBXGroup;
 			children = (
-				E6E46F4928C9EF8C00A56F53 /* README.md */,
 				E661753B2890267C00E2649D /* Dicoding Final Project */,
 				E661753A2890267C00E2649D /* Products */,
 			);
@@ -140,7 +137,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6E46F4A28C9EF8C00A56F53 /* README.md in Resources */,
 				E66175442890267D00E2649D /* Preview Assets.xcassets in Resources */,
 				E66175412890267D00E2649D /* Assets.xcassets in Resources */,
 			);
